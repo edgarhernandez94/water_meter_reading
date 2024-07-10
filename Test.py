@@ -10,7 +10,7 @@ def detect_water_meter_value(image_path):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     
     # Recortar la región de interés (ROI) que contiene los números
-    x_start, x_end = 280, 390
+    x_start, x_end = 280, 380
     y_start, y_end = 250, 320
     roi = gray[y_start:y_end, x_start:x_end]
     
@@ -46,7 +46,7 @@ def detect_water_meter_value(image_path):
         return "No se pudo detectar el valor del medidor de agua."
 
 # Ruta a la imagen del medidor de agua
-image_path = 'C:/Users/edgar/OneDrive/Escritorio/water_meter_reading/images.jpg'  # Ajusta la ruta de la imagen
+image_path = 'C:/Users/ATR/Downloads/imagemeter1.jpg'  # Ajusta la ruta de la imagen
 
 # Detectar el valor del medidor de agua
 resultado = detect_water_meter_value(image_path)
