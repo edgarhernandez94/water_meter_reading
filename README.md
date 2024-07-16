@@ -35,24 +35,17 @@ Puedes instalar todas las dependencias utilizando el archivo `requirements.txt`.
 ## Ejemplos de Ejecución
 
 ### Procesamiento de Imágenes
-
 ```bash
-python image_processing.py
-Captura de Imágenes
-bash
-Copiar código
-python image_capture.py
-Notas
+python imapge_processing.py
+
+```
+
+## Notas
 Asegúrate de ajustar las coordenadas de la ROI en el script image_processing.py según sea necesario para tu caso específico.
 Verifica que el puerto serial y la tasa de baudios sean correctos para tu dispositivo antes de ejecutar image_capture.py.
-Contribuciones
+
+## Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para cualquier mejora o corrección.
-
-Licencia
-Este proyecto está bajo la licencia MIT.
-
-arduino
-Copiar código
 
 ### requirements.txt
 
